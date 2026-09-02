@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram, Facebook, Mail, MessageCircle } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Mail, MessageCircle } from "lucide-react";
 import Container from "./Container";
 import { siteConfig, buildWhatsAppLink } from "@/lib/site-config";
 import { levels } from "@/lib/data";
@@ -48,6 +48,15 @@ export default function Footer() {
               className="flex h-10 w-10 items-center justify-center rounded-full border border-paper/15 text-paper/70 transition-all duration-300 hover:-translate-y-0.5 hover:border-bridge hover:text-bridge"
             >
               <Facebook size={17} />
+            </a>
+            <a
+              href={siteConfig.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TutorBridge on LinkedIn"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-paper/15 text-paper/70 transition-all duration-300 hover:-translate-y-0.5 hover:border-bridge hover:text-bridge"
+            >
+              <Linkedin size={17} />
             </a>
             <a
               href={buildWhatsAppLink()}

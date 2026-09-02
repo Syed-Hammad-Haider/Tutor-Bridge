@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MessageCircle, Mail, Instagram, Facebook } from "lucide-react";
+import { MessageCircle, Mail, Instagram, Facebook, Linkedin } from "lucide-react";
 import Container from "@/components/Container";
 import { siteConfig, buildWhatsAppLink } from "@/lib/site-config";
 
@@ -79,6 +79,15 @@ export default function ContactPage() {
               className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/10 text-ink/70 transition-colors hover:border-bridge hover:text-bridge-dark"
             >
               <Facebook size={18} />
+            </a>
+            <a
+              href={siteConfig.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TutorBridge on LinkedIn"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/10 text-ink/70 transition-colors hover:border-bridge hover:text-bridge-dark"
+            >
+              <Linkedin size={18} />
             </a>
           </div>
         </div>

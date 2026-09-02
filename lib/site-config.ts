@@ -22,6 +22,7 @@ export const siteConfig = {
   social: {
     instagram: "https://www.instagram.com/tutorbridge53/",
     facebook: "https://www.facebook.com/people/Tutor-Bridge/61592410440051/",
+    linkedin: "https://www.linkedin.com/company/tutorbridge/",
   },
 
   email: "tutorbridge53@gmail.com",

@@ -7,7 +7,11 @@ import Link from "next/link";
 const faqs: { q: string; a: React.ReactNode }[] = [
   {
     q: "How does TutorBridge select tutors?",
-    a: "Every tutor is reviewed for subject expertise and teaching experience before we recommend them for a match — we don't just hand out a list.",
+    a: "Every tutor is CNIC-verified, has their academic transcripts reviewed, and is personally screened for teaching experience before we recommend them for a match — we don't just hand out a list.",
+  },
+  {
+    q: "Is there a trial or demo session?",
+    a: "Yes — every match includes one free demo session before you confirm the tutor. If it's not the right fit, we'll do our best to arrange a replacement.",
   },
   {
     q: "How quickly can I get a tutor?",
@@ -19,11 +23,11 @@ const faqs: { q: string; a: React.ReactNode }[] = [
   },
   {
     q: "Is TutorBridge available internationally?",
-    a: "Yes. Online tuition means location isn't a limit — we work with students and tutors well beyond any one country.",
+    a: "Yes. We actively serve students in Pakistan and internationally — online tuition means location isn't a limit.",
   },
   {
     q: "How are fees and payments handled?",
-    a: "TutorBridge collects advance payments and pays tutors after classes commence, ensuring safety for all.",
+    a: "TutorBridge collects advance payments and pays tutors after classes commence, ensuring safety for all. We accept bank transfer, JazzCash, and Easypaisa.",
   },
   {
     q: "What levels and boards do you cover?",

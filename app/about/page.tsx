@@ -4,6 +4,7 @@ import Container from "@/components/Container";
 import CTAButton from "@/components/CTAButton";
 import Reveal from "@/components/Reveal";
 import ConnectionGraphic from "@/components/ConnectionGraphic";
+import FounderSection from "@/components/FounderSection";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -18,7 +19,7 @@ export default function AboutPage() {
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="max-w-2xl">
-              <p className="eyebrow">About TutorBridge</p>
+              <p className="eyebrow">About TutorBridge · Founded July 2026</p>
               <h1 className="mt-3 text-balance font-display text-[34px] font-medium leading-tight text-ink sm:text-[42px]">
                 A bridge between good tutors and the families who need them.
               </h1>
@@ -39,6 +40,12 @@ export default function AboutPage() {
               <ConnectionGraphic className="w-full" />
             </Reveal>
           </div>
+        </Container>
+      </section>
+
+      <section className="border-t border-ink/[0.06] py-20 sm:py-24">
+        <Container>
+          <FounderSection />
         </Container>
       </section>
 
